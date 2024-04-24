@@ -1,4 +1,4 @@
-name: run android tests
+name: run android automation tests
 on: 
  push:
   branches: main
@@ -6,7 +6,7 @@ on:
 
 jobs:
   run-android-tests:
-    runs-on: macos-11.0
+    runs-on: macos-latest
 
     steps:
       - name: setup java
