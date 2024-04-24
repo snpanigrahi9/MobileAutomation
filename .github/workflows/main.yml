@@ -6,7 +6,7 @@ on:
 
 jobs:
   run-android-tests:
-    runs-on: macos-latest
+    runs-on: macos-11.0
 
     steps:
       - name: setup java
