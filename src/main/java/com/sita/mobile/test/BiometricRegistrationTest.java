@@ -67,7 +67,7 @@ public class BiometricRegistrationTest extends BaseTest {
 		 driver = (AndroidDriver) AppiumDriverFactory.launchApp();
 		 test = extent.createTest("verifySplashPage");
 		 //driver.installApp("C:\\Users\\S.Panigrahi\\app-sitalab-release.apk");
-		 driver.installApp(System.getProperty("user.dir")+"//InputFile//app-sitalab-release.apk");
+		 driver.installApp(System.getProperty("user.dir")+"//app-sitalab-release.apk");
 		 driver.activateApp("aero.sita.sitalab.smartpathmobile");
 	  GetStarted registration = new GetStarted();
 	  registration.notificationAllow();
