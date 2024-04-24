@@ -19,7 +19,7 @@ public class AppiumDriverFactory {
      {
     	 UiAutomator2Options caps = new UiAutomator2Options();
     	 caps.setPlatformName("Android");
-    	 caps.setPlatformVersion("14.0");
+    	 caps.setPlatformVersion("10.0");
     	 caps.setDeviceName("emulator-5554");
     	 caps.setAutomationName("UiAutomator2");
     	 caps.setAppPackage("aero.sita.sitalab.smartpathmobile");

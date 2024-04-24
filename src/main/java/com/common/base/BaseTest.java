@@ -60,14 +60,14 @@ public class BaseTest {
 		 String path =  System.getenv("AppData");
 		 System.out.println(path);
 		
-		  AppiumServiceBuilder builder = new AppiumServiceBuilder(); builder
+/* 		  AppiumServiceBuilder builder = new AppiumServiceBuilder(); builder
 		  .withAppiumJS(new File(
 		 // "C:\\Users\\S.Panigrahi\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"
 				  System.getenv("AppData")+"//npm//node_modules//appium//build//lib//main.js"
 		  )) .usingDriverExecutable(new File("C:\\Program Files\\nodejs\\node.exe"))
 		  .usingPort(4723) .withArgument(GeneralServerFlag.LOCAL_TIMEZONE)
 		  .withLogFile(new File("AppiumLog.txt")) .withIPAddress("127.0.0.1"); server =
-		  AppiumDriverLocalService.buildService(builder); server.start();
+		  AppiumDriverLocalService.buildService(builder); server.start(); */
 		 
 		
 		
@@ -106,9 +106,7 @@ public class BaseTest {
 		 * .withLogFile(new File("AppiumLog.txt")) .withIPAddress("127.0.0.1"); server =
 		 * AppiumDriverLocalService.buildService(builder);
 		 */
-		server.stop();
-        
-        
+		//server.stop();
         
 	 }	
 	public void back() {
